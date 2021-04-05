@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dark Sipda",
+  "version": "0.1.0",
+  "description": "Ekstensi untuk mengubah tema sipda",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://elearningft.unimed.ac.id/*"]
+  }]
+
+}
